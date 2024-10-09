@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.calculator{
+    border: 1px solid black;
+    margin: 45px 100px;
+    width: 300px;
+    cursor: pointer;
+    
+}
+
+#display{
+    margin: 10px 15px;
+    width: 90%;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.input button{
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+    font-size: 25px;
+    border-radius: 29px;
+    cursor: pointer;
+}
