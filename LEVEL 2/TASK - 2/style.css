@@ -107,6 +107,29 @@ body:hover {
     text-align: center;
 }
 
+.container {
+    text-align: center;
+    /* Aligns all elements in the center horizontally */
+}
+
+.link {
+    display: inline-block;
+    margin: 0 10px;
+    /* Adds space between each link */
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #1bb934;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #148a26;
+    /* Darker shade on hover */
+}
+
+
 .navbar ul {
     display: inline-block;
     list-style: none;
